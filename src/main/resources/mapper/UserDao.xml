@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<mapper namespace="com.order.wchart.dao.UserDao">
+    <select id="getUserList" resultType="com.order.wchart.entity.User">
+
+    </select>
+    <select id="getUserById" resultType="com.order.wchart.entity.User">
+
+    </select>
+    <select id="insertUser" resultType="com.order.wchart.entity.User">
+
+    </select>
+    <select id="updateUser" resultType="com.order.wchart.entity.User">
+
+    </select>
+    <select id="deleteUser" resultType="com.order.wchart.entity.User">
+
+    </select>
+</mapper>
